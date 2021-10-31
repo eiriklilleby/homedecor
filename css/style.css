@@ -1,61 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html,
-body {
-  height: 100%;
-}
-
-:root {
-  --mainblue: #002f61;
-  --gold: #ba994c;
-  --beige: #dbcdb4;
-  --white: #f2f2f2;
-}
-
-body {
-  background-image: url(/img/marble.jpg);
-  background-repeat: no-repeat;
-  font-family: "Montserrat", sans-serif !important;
-  display: flex;
-  flex-direction: column;
-}
-
-.container-fluid {
-  width: 90% !important;
-}
-
-.wrapper {
-  flex: 1 0 auto;
-}
-
-/* NAV */
-
-.navbar {
-  background: var(--mainblue);
-  border-bottom: 4px solid var(--gold);
-}
-
-.nav-link.active {
-  color: var(--gold) !important;
-}
-
-.navbar-brand img {
-  height: 4rem;
-  margin-right: 3rem;
-}
-
-.nav-link {
-  color: white !important;
-  margin: 0.8rem 1.5rem 0 0;
-  font-weight: 500;
-}
-
 /* CAROUSEL */
-
 .carousel-inner {
   height: 650px;
   border-bottom: 4px solid var(--gold);
@@ -107,27 +50,4 @@ body {
   font-weight: 700;
   top: 160px;
   left: 260px;
-}
-
-/* footer */
-
-footer {
-  margin-top: 4rem;
-  background: var(--mainblue);
-  border-top: 4px solid var(--gold);
-  min-height: 6vh;
-}
-
-.container-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-h4 {
-  color: var(--gold);
-  font-size: 16px !important;
-  text-align: center;
-  line-height: unset !important;
-  margin-top: 0.8rem !important;
 }
