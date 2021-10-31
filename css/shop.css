@@ -1,0 +1,106 @@
+.head-product-container {
+  background-image: url(/img/room/stue1.jpg);
+  background-size: cover;
+  background-position-y: 60%;
+  height: 45rem;
+  border-bottom: 4px solid var(--gold);
+  border-right: 4px solid var(--gold);
+  border-left: 4px solid var(--gold);
+  filter: contrast(110%);
+}
+
+.row {
+  margin: 1 !important;
+}
+
+.display-4 {
+  color: rgb(17, 17, 17);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500 !important;
+  font-size: 2.8rem !important;
+}
+
+.lead {
+  color: rgb(17, 17, 17);
+
+  font-weight: 400 !important;
+  margin-top: 1rem;
+}
+
+.jumbotron {
+  background: none !important;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0rem 0 0 40rem;
+}
+
+.product-container {
+  background: var(--white);
+  border: solid 4px var(--gold);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 29rem;
+  position: relative;
+  margin: 0rem 1rem 0rem 1rem;
+}
+
+.product-img {
+  height: 70%;
+  width: 70%;
+  object-fit: cover;
+}
+
+.icon-containter {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.icon-containter img {
+  width: 3.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.info-container {
+  background: var(--white);
+  height: 10rem;
+  margin: 0rem 1rem 1rem 1rem;
+}
+
+.info-container h2 {
+  margin-top: 2rem;
+  text-align: center;
+  color: var(--mainblue);
+  text-transform: uppercase;
+}
+
+.info-container p {
+  text-align: center;
+  color: rgb(17, 17, 17);
+  font-weight: 500;
+}
+
+.info-container span {
+  color: var(--mainblue);
+  font-size: 24px;
+  font-weight: 600;
+  display: table;
+  margin: auto;
+}
+
+.light {
+  margin-top: 4rem;
+  height: 80%;
+  width: 80%;
+}
+
+.lamp {
+  margin-top: 4rem;
+}
