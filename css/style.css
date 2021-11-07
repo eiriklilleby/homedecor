@@ -23,7 +23,6 @@
   background-size: cover;
   position: relative;
   transition: 250ms;
-
   cursor: pointer;
   margin-bottom: 2rem;
   padding: 0;
@@ -36,7 +35,8 @@
 
 .img-container h1 {
   position: absolute;
-  color: rgb(17, 17, 17);
+  color: var(--mainblue);
+  text-shadow: 0px 11px 10px rgba(17, 17, 17, 0.8);
   font-size: 36px;
   font-weight: 700;
   top: 125px;
@@ -46,6 +46,7 @@
 .img-container h2 {
   position: absolute;
   color: rgb(17, 17, 17);
+  text-shadow: 0px 11px 10px rgba(17, 17, 17, 0.8);
   font-size: 24px;
   font-weight: 700;
   top: 160px;
